@@ -37,6 +37,13 @@ body {
 	text-align: center;
 	color: #30475e;
 }
+/* animaction  */
+.container .hard .animaction svg {
+	height: 40%;
+	width: 60%;
+	margin-top: 10%;
+	margin-bottom: 5%;
+}
 /* anmaction */
 #icon-one, #icon-two, #icon-three, #icon-fore, #icon-five{
     animation: one 1s ease-in-out infinite alternate;
@@ -50,11 +57,6 @@ body {
     to{
         transform:  rotateZ(20deg);
     }
-}
-/* animaction  */
-.container .hard .animaction {
-	margin-top: 10%;
-	margin-bottom: 5%;
 }
 /* h2 */
 /* .hard h2 {
