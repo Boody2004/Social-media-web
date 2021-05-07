@@ -37,13 +37,24 @@ body {
 	text-align: center;
 	color: #30475e;
 }
-/* img  */
-.container .hard .welcome-img img {
+/* anmaction */
+#icon-one, #icon-two, #icon-three, #icon-fore, #icon-five{
+    animation: one 1s ease-in-out infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes one {
+    from {
+        transform:  rotateZ(0deg);
+    }
+    to{
+        transform:  rotateZ(20deg);
+    }
+}
+/* animaction  */
+.container .hard .animaction {
 	margin-top: 10%;
 	margin-bottom: 5%;
-	/* margin-left: 3.3%;
-	width: 500px;
-	height: 300px; */
 }
 /* h2 */
 /* .hard h2 {
