@@ -6,4 +6,4 @@
 **Thanks, Abdelrahman-BE**
 
 ---
-![Design preview for the Profile card component coding challenge](./images/social-media-BE.jpg)
+![Design preview for the Profile card component coding challenge](images/social-media-BE.jpg)
