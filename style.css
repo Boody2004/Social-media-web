@@ -1,125 +1,118 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,500&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500&display=swap");
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 body {
-	background:linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB ,#be1ed3);
-	background-size: 400% 400%;
-	position: relative;
-	animation: change 10s ease infinite ;
-	font-family: 'Poppins', sans-serif;
+  background: linear-gradient(
+    -45deg,
+    #ee7752,
+    #e73c7e,
+    #23a6d5,
+    #23d5ab,
+    #be1ed3
+  );
+  background-size: 400% 400%;
+  position: relative;
+  animation: change 10s ease infinite;
+  font-family: "Poppins", sans-serif;
 }
 /* background  */
 @keyframes change {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 /* container  */
 .container {
-	width: 1200px;
-	margin: auto;
-	max-width: 100%;
+  width: 1200px;
+  margin: auto;
+  max-width: 100%;
 }
 /* h1  */
 .container h1 {
-	font-size: 3rem;
-	padding: 20px 10px;
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	border: 3px solid black;
-	text-align: center;
-	color: #30475e;
+  font-size: 3rem;
+  padding: 20px 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 3px solid black;
+  text-align: center;
+  color: #30475e;
 }
 /* animaction  */
-.container .hard .animaction svg {
-	height: 40%;
-	width: 60%;
-	margin-top: 10%;
-	margin-bottom: 5%;
+.animaction {
+  text-align: center;
 }
 /* anmaction */
-#icon-one, #icon-two, #icon-three, #icon-fore, #icon-five{
-    animation: one 1s ease-in-out infinite alternate;
-    transform-origin: center;
-    transform-box: fill-box;
+#icon-one,
+#icon-two,
+#icon-three,
+#icon-fore,
+#icon-five {
+  animation: one 1s ease-in-out infinite alternate;
+  transform-origin: center;
+  transform-box: fill-box;
 }
 @keyframes one {
-    from {
-        transform:  rotateZ(0deg);
-    }
-    to{
-        transform:  rotateZ(20deg);
-    }
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(20deg);
+  }
 }
-/* h2 */
-/* .hard h2 {
-	position: relative;
-	color: #30475e;
-}
-.hard h2::after {
-	content: '';
-	background-color: red;
-	border-radius: 10px;
-	position: absolute;
-	bottom: -5px;
-	left: 0;
-	height: 4px;
-	width: 70px;
-} */
 /* links-content */
 .container .hard .links-content {
-    margin-top: 10%;
-	margin-bottom: 10%;
-	flex-wrap: wrap;
-	justify-content: center;
-	list-style-type: none;
-	padding: 0;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
 }
-.container .hard .grid-cards-section .cards{
-	text-transform: uppercase;
-	letter-spacing: 2px;
-	border: 3px solid black;
-	display: grid;
-	grid-template-columns: repeat(auto-fit,minmax(203px,1fr));
-	padding: 40px;
-	grid-gap: 40px;
+.container .hard .grid-cards-section .cards {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border: 3px solid black;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(203px, 1fr));
+  padding: 40px;
+  grid-gap: 40px;
 }
-.container .hard .grid-cards-section .card{
-	border-radius: 20px;
-	box-shadow: 0 0 30px rgba(0,0,0,0.18);
+.container .hard .grid-cards-section .card {
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.18);
 }
-.container .hard .grid-cards-section .container{
-	position: relative;
-	clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
+.container .hard .grid-cards-section .container {
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
-.container .hard .grid-cards-section .details{
-	text-align: center;
-	padding: 20px 10px;
+.container .hard .grid-cards-section .details {
+  text-align: center;
+  padding: 20px 10px;
 }
 /* footer */
 footer {
-	color: #30475e;
-	font-size: 1.1rem;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	padding: 10px;
-	width: 100%;
-	text-align: center;
+  color: #30475e;
+  font-size: 1.1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
 }
 footer a {
-	color: #fff;
+  color: #fff;
 }
 footer i {
-	color: red;
+  color: red;
 }
 footer a:hover {
-	color: #30475e;
+  color: #30475e;
 }
