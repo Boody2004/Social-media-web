@@ -1,4 +1,4 @@
-# Social-media-web BE
+# Social-media-web
 ## go to website [Social-media-web BE]( https://social-media-be.herokuapp.com/)
 <b>coded by [Boody-BE](https://github.com/Boody2004)</b>
 
